@@ -2,9 +2,9 @@
 
 An authentication system using Lego as a (visual) password.
 
-To be clear, this is a terrible idea and should not be used in production.
+To be clear, this is a terrible idea and should not be used anywhere near production.
 
-Insert video demo...
+https://github.com/user-attachments/assets/a2cc2313-b21b-44c7-b8ac-533b61b0ae8d
 
 ## Overview
 
