@@ -2,9 +2,9 @@
 
 An authentication system using Lego as a (visual) password.
 
-To be clear, this is a terrible idea and should not be used in production.
+To be clear, this is a terrible idea and should not be used anywhere near production.
 
-Insert video demo...
+https://github.com/user-attachments/assets/a2cc2313-b21b-44c7-b8ac-533b61b0ae8d
 
 ## Overview
 
@@ -31,8 +31,8 @@ Visit `http://localhost:4567`
 
 ## How it works
 
-- Create an account with a username and capture your Lego creation as a password
-- Log in: Show the same Lego creation to authenticate
+- Create an account with a username and capture a Lego creation as a password
+- Log in by showing the same Lego creation to authenticate
 - Uses cosine similarity (85% threshold) on image feature vectors
 
 Looking at the output from TensorFlow / MobileNet is quite entertaining; it has a guess at what the image is. "Great Dane"? is my favourite so far.
